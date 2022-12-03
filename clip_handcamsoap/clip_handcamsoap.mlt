@@ -1,0 +1,716 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.10.0" title="Shotcut version 22.10.25" producer="main_bin">
+  <profile description="PAL 4:3 DV or DVD" width="1080" height="1920" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="9" display_aspect_den="16" frame_rate_num="60" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:00:42.167">
+    <property name="length">00:00:42.183</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:00:42.167"/>
+  </playlist>
+  <chain id="chain35" out="00:57:01.083">
+    <property name="length">00:57:01.100</property>
+    <property name="eof">pause</property>
+    <property name="resource">../streams/20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="format">3</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-11-29T17:21:53</property>
+    <property name="shotcut:hash">4424976b732aad41e5ae69712f81cdaa</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+    <filter id="filter0" in="00:13:47.467" out="00:13:53.633">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">00:00:00.000=-2050.34 562.221 3224.88 1813.99 1;00:00:00.167=-2062.99 595.106 3224.88 1814 1;00:00:00.333=-2065.52 650.758 3224.88 1813.99 1;00:00:00.500=-2022.51 734.237 3224.88 1814 1;00:00:00.667=-1984.57 794.948 3224.88 1814 1;00:00:00.833=-1997.21 812.656 3224.88 1814 1;00:00:01.000=-1969.39 817.715 3224.88 1814 1;00:00:01.167=-1974.45 812.656 3224.88 1814 1;00:00:01.333=-1969.39 860.719 3224.88 1814 1;00:00:01.500=-1966.86 898.664 3224.88 1814 1;00:00:01.667=-1959.27 893.604 3224.88 1814 1;00:00:01.833=-1961.8 865.778 3224.88 1814 1;00:00:02.000=-1951.68 840.482 3224.88 1814 1;00:00:02.167=-1946.62 815.185 3224.88 1814 1;00:00:02.333=-1954.21 817.715 3224.88 1814 1;00:00:02.500=-1954.21 817.715 3224.88 1814 1;00:00:02.667=-1954.21 820.245 3224.88 1814 1;00:00:02.833=-1961.8 817.715 3224.88 1814 1;00:00:03.000=-1933.97 807.596 3224.88 1814 1;00:00:03.167=-1928.91 794.948 3224.88 1814 1;00:00:03.333=-1923.85 784.83 3224.88 1814 1;00:00:03.500=-1923.85 772.181 3224.88 1814 1;00:00:03.667=-1911.21 762.063 3224.88 1814 1;00:00:03.833=-1901.09 749.414 3224.88 1814 1;00:00:04.000=-1880.85 711.47 3224.88 1814 1;00:00:04.167=-1868.2 686.173 3224.88 1814 1;00:00:04.333=-1870.73 658.347 3224.88 1814 1;00:00:04.500=-1845.44 640.64 3224.88 1814 1;00:00:04.667=-1845.44 615.343 3224.88 1814 1;00:00:04.833=-1840.38 610.284 3224.88 1814 1;00:00:05.000=-1858.08 630.521 3224.88 1814 1;00:00:05.167=-1860.61 658.347 3224.88 1814 1;00:00:05.333=-1847.97 643.169 3224.88 1814 1;00:00:05.500=-1837.85 617.873 3224.88 1814 1;00:00:05.667=-1832.79 600.165 3224.88 1814 1;00:00:05.833=-1868.2 640.64 3224.88 1814 1;00:00:06.000=-1883.38 683.644 3224.88 1814 1;00:00:06.167=-1885.91 678.584 3224.88 1814 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="disable">1</property>
+    </filter>
+    <filter id="filter1" in="00:13:47.467" out="00:13:53.633">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">00:00:00.000=-2070.58 549.573 3224.88 1814 1;00:00:00.483=-2051.35 712.735 3224.88 1814 1;00:00:01.000=-1959.27 832.893 3224.88 1813.99 1;00:00:02.867=-1959.27 832.893 3224.88 1813.99 1;00:00:03.483=-1901.09 754.474 3224.88 1813.99 1;00:00:04.767=-1860.62 655.818 3224.88 1813.99 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter2" in="00:13:47.467" out="00:13:53.633">
+      <property name="rect">0 960 1080 960 1</property>
+      <property name="circle">0</property>
+      <property name="color">#00000000</property>
+      <property name="radius">0</property>
+      <property name="mlt_service">qtcrop</property>
+      <property name="shotcut:filter">cropRectangle</property>
+      <property name="disable">0</property>
+    </filter>
+  </chain>
+  <chain id="chain0" out="00:57:01.083">
+    <property name="length">00:57:01.100</property>
+    <property name="eof">pause</property>
+    <property name="resource">../streams/20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="format">3</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-11-29T17:21:53</property>
+    <property name="shotcut:hash">4424976b732aad41e5ae69712f81cdaa</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+    <filter id="filter3" in="00:13:59.933" out="00:14:07.550">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">00:00:02.400=-1999.74 724.118 3224.88 1813.99 1;00:00:03.283=-1956.74 529.335 3224.88 1813.99 1;00:00:03.383=-2007.33 526.806 3224.88 1814 1;00:00:03.750=-2049.59 626.774 3224.88 1814 1;00:00:04.217=-2074.59 676.535 3224.88 1813.99 1;00:00:04.317=-2084.71 689.183 3224.88 1814 1;00:00:04.633=-2089.77 810.606 3224.88 1814 1;00:00:04.750=-2097.36 851.08 3224.88 1814 1;00:00:05.067=-2095.24 833.863 3224.88 1813.99 1;00:00:05.200=-2089.77 810.606 3224.88 1814 1;00:00:05.867~=-2021.47 679.065 3224.88 1814 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter4" in="00:13:59.933" out="00:14:07.550">
+      <property name="rect">0 960 1080 960 1</property>
+      <property name="circle">0</property>
+      <property name="color">#00000000</property>
+      <property name="radius">0</property>
+      <property name="mlt_service">qtcrop</property>
+      <property name="shotcut:filter">cropRectangle</property>
+      <property name="disable">0</property>
+    </filter>
+  </chain>
+  <chain id="chain1" out="00:57:01.083">
+    <property name="length">00:57:01.100</property>
+    <property name="eof">pause</property>
+    <property name="resource">../streams/20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="format">3</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-11-29T17:21:53</property>
+    <property name="shotcut:hash">4424976b732aad41e5ae69712f81cdaa</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+    <filter id="filter5" in="00:14:13.083" out="00:14:18.783">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">00:00:04.817=-1913.74 769.652 3224.88 1814 1;00:00:05.383=-1913.74 622.932 3224.88 1813.99 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter6" in="00:14:13.083" out="00:14:18.783">
+      <property name="rect">0 960 1080 960 1</property>
+      <property name="circle">0</property>
+      <property name="color">#00000000</property>
+      <property name="radius">0</property>
+      <property name="mlt_service">qtcrop</property>
+      <property name="shotcut:filter">cropRectangle</property>
+      <property name="disable">0</property>
+    </filter>
+  </chain>
+  <chain id="chain4" out="00:57:01.083">
+    <property name="length">00:57:01.100</property>
+    <property name="eof">pause</property>
+    <property name="resource">../streams/20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="format">3</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-11-29T17:21:53</property>
+    <property name="shotcut:hash">4424976b732aad41e5ae69712f81cdaa</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+    <filter id="filter7" in="00:54:34.800" out="00:54:39.117">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">00:00:01.517=-1992.16 729.177 3224.88 1814 1;00:00:02.167=-2138.87 711.47 3224.88 1813.99 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter8" in="00:54:34.800" out="00:54:39.117">
+      <property name="rect">0 960 1080 960 1</property>
+      <property name="circle">0</property>
+      <property name="color">#00000000</property>
+      <property name="radius">0</property>
+      <property name="mlt_service">qtcrop</property>
+      <property name="shotcut:filter">cropRectangle</property>
+      <property name="disable">0</property>
+    </filter>
+  </chain>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="chain35" in="00:13:47.467" out="00:13:53.633"/>
+    <entry producer="chain0" in="00:13:59.933" out="00:14:07.550"/>
+    <entry producer="chain1" in="00:14:13.083" out="00:14:18.783"/>
+    <blank length="00:00:10.833"/>
+    <entry producer="chain4" in="00:54:34.800" out="00:54:39.117"/>
+  </playlist>
+  <chain id="chain3" out="00:57:01.083">
+    <property name="length">00:57:01.100</property>
+    <property name="eof">pause</property>
+    <property name="resource">../streams/20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="format">3</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-11-29T17:21:53</property>
+    <property name="shotcut:hash">4424976b732aad41e5ae69712f81cdaa</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+    <filter id="filter9" in="00:13:47.467" out="00:13:53.633">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-980.547 -484.805 3732.48 2099.52 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter10" in="00:13:47.467" out="00:13:53.633">
+      <property name="rect">0 0 1080 960 1</property>
+      <property name="circle">0</property>
+      <property name="color">#00000000</property>
+      <property name="radius">0</property>
+      <property name="mlt_service">qtcrop</property>
+      <property name="shotcut:filter">cropRectangle</property>
+      <property name="disable">0</property>
+    </filter>
+  </chain>
+  <chain id="chain6" out="00:57:01.083">
+    <property name="length">00:57:01.100</property>
+    <property name="eof">pause</property>
+    <property name="resource">../streams/20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="format">3</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-11-29T17:21:53</property>
+    <property name="shotcut:hash">4424976b732aad41e5ae69712f81cdaa</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+    <filter id="filter11" in="00:13:59.933" out="00:14:05.400">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-980.547 -484.805 3732.48 2099.52 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter12" in="00:13:59.933" out="00:14:05.400">
+      <property name="rect">0 0 1080 960 1</property>
+      <property name="circle">0</property>
+      <property name="color">#00000000</property>
+      <property name="radius">0</property>
+      <property name="mlt_service">qtcrop</property>
+      <property name="shotcut:filter">cropRectangle</property>
+      <property name="disable">0</property>
+    </filter>
+  </chain>
+  <chain id="chain2" out="00:57:01.083">
+    <property name="length">00:57:01.100</property>
+    <property name="eof">pause</property>
+    <property name="resource">../streams/20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="format">3</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-11-29T17:21:53</property>
+    <property name="shotcut:hash">4424976b732aad41e5ae69712f81cdaa</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+    <filter id="filter13" in="00:14:05.417" out="00:14:05.467">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-980.547 -484.805 3732.48 2099.52 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter14" in="00:14:05.417" out="00:14:05.467">
+      <property name="rect">0 0 1080 960 1</property>
+      <property name="circle">0</property>
+      <property name="color">#00000000</property>
+      <property name="radius">0</property>
+      <property name="mlt_service">qtcrop</property>
+      <property name="shotcut:filter">cropRectangle</property>
+      <property name="disable">0</property>
+    </filter>
+  </chain>
+  <chain id="chain5" out="00:57:01.083">
+    <property name="length">00:57:01.100</property>
+    <property name="eof">pause</property>
+    <property name="resource">../streams/20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="format">3</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-11-29T17:21:53</property>
+    <property name="shotcut:hash">4424976b732aad41e5ae69712f81cdaa</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+    <filter id="filter15" in="00:14:05.483" out="00:14:07.550">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-980.547 -484.805 3732.48 2099.52 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter16" in="00:14:05.483" out="00:14:07.550">
+      <property name="rect">0 0 1080 960 1</property>
+      <property name="circle">0</property>
+      <property name="color">#00000000</property>
+      <property name="radius">0</property>
+      <property name="mlt_service">qtcrop</property>
+      <property name="shotcut:filter">cropRectangle</property>
+      <property name="disable">0</property>
+    </filter>
+  </chain>
+  <chain id="chain7" out="00:57:01.083">
+    <property name="length">00:57:01.100</property>
+    <property name="eof">pause</property>
+    <property name="resource">../streams/20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="format">3</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-11-29T17:21:53</property>
+    <property name="shotcut:hash">4424976b732aad41e5ae69712f81cdaa</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+    <filter id="filter17" in="00:14:13.083" out="00:14:18.783">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-980.547 -484.805 3732.48 2099.52 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter18" in="00:14:13.083" out="00:14:18.783">
+      <property name="rect">0 0 1080 960 1</property>
+      <property name="circle">0</property>
+      <property name="color">#00000000</property>
+      <property name="radius">0</property>
+      <property name="mlt_service">qtcrop</property>
+      <property name="shotcut:filter">cropRectangle</property>
+      <property name="disable">0</property>
+    </filter>
+  </chain>
+  <chain id="chain8" out="00:57:01.083">
+    <property name="length">00:57:01.100</property>
+    <property name="eof">pause</property>
+    <property name="resource">../streams/20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="format">3</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-11-29T17:21:53</property>
+    <property name="shotcut:hash">4424976b732aad41e5ae69712f81cdaa</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+    <filter id="filter19" in="00:53:33.817" out="00:53:36.017">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-2377.74 -152.426 3780 2126.25 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </chain>
+  <chain id="chain9" out="00:57:01.083">
+    <property name="length">00:57:01.100</property>
+    <property name="eof">pause</property>
+    <property name="resource">../streams/20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="format">3</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-11-29T17:21:53</property>
+    <property name="shotcut:hash">4424976b732aad41e5ae69712f81cdaa</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+    <filter id="filter20" in="00:53:52.850" out="00:53:57.467">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">00:00:01.850=-1221.42 -327.689 4644 2612.25 1;00:00:01.983=-1288.71 -323.54 4644 2612.25 1;00:00:02.550=-2826.81 -228.715 4644 2612.25 1;00:00:02.683=-2903.72 -223.973 4644 2612.25 1;00:00:03.050=-2903.72 -223.973 4644 2612.25 1;00:00:03.733=-2906.25 -681.839 4644 2612.25 1;00:00:04.033=-2789.89 -679.309 4644 2612.25 1;00:00:04.633=-2987.2 -449.112 4644 2612.25 1;00:00:04.783=-2938.82</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </chain>
+  <chain id="chain10" out="00:57:01.083">
+    <property name="length">00:57:01.100</property>
+    <property name="eof">pause</property>
+    <property name="resource">../streams/20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="format">3</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-11-29T17:21:53</property>
+    <property name="shotcut:hash">4424976b732aad41e5ae69712f81cdaa</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+    <filter id="filter21" in="00:54:16.083" out="00:54:18.167">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-6630 -1201.15 8685.36 4885.52 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </chain>
+  <chain id="chain11" out="00:57:01.083">
+    <property name="length">00:57:01.100</property>
+    <property name="eof">pause</property>
+    <property name="resource">../streams/20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="format">3</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-11-29T17:21:53</property>
+    <property name="shotcut:hash">4424976b732aad41e5ae69712f81cdaa</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+    <filter id="filter22" in="00:54:06.533" out="00:54:07.000">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-1585.42 -321.879 4423.68 2488.32 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </chain>
+  <chain id="chain12" out="00:57:01.083">
+    <property name="length">00:57:01.100</property>
+    <property name="eof">pause</property>
+    <property name="resource">../streams/20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="format">3</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-11-29T17:21:53</property>
+    <property name="shotcut:hash">4424976b732aad41e5ae69712f81cdaa</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+    <filter id="filter23" in="00:54:07.017" out="00:54:08.400">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-2687.83 -772.933 7123.68 4007.07 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </chain>
+  <chain id="chain13" out="00:57:01.083">
+    <property name="length">00:57:01.100</property>
+    <property name="eof">pause</property>
+    <property name="resource">../streams/20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="format">3</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-11-29T17:21:53</property>
+    <property name="shotcut:hash">4424976b732aad41e5ae69712f81cdaa</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+    <filter id="filter24" in="00:54:34.800" out="00:54:39.117">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-980.547 -484.805 3732.48 2099.52 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter25" in="00:54:34.800" out="00:54:39.117">
+      <property name="rect">0 0 1080 960 1</property>
+      <property name="circle">0</property>
+      <property name="color">#00000000</property>
+      <property name="radius">0</property>
+      <property name="mlt_service">qtcrop</property>
+      <property name="shotcut:filter">cropRectangle</property>
+      <property name="disable">0</property>
+    </filter>
+  </chain>
+  <chain id="chain14" out="00:57:01.083">
+    <property name="length">00:57:01.100</property>
+    <property name="eof">pause</property>
+    <property name="resource">../streams/20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="format">3</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-11-29T17:21:53</property>
+    <property name="shotcut:hash">4424976b732aad41e5ae69712f81cdaa</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">20221129__KK41gvSUV44__WE'RE EATIN TRAINS [handcam].webm</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+    <filter id="filter26" in="00:54:45.450" out="00:54:52.917">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-2316.32 -103.375 3780 2126.25 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </chain>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <entry producer="chain3" in="00:13:47.467" out="00:13:53.633"/>
+    <entry producer="chain6" in="00:13:59.933" out="00:14:05.400"/>
+    <entry producer="chain2" in="00:14:05.417" out="00:14:05.467"/>
+    <entry producer="chain5" in="00:14:05.483" out="00:14:07.550"/>
+    <entry producer="chain7" in="00:14:13.083" out="00:14:18.783"/>
+    <entry producer="chain8" in="00:53:33.817" out="00:53:36.017"/>
+    <entry producer="chain9" in="00:53:52.850" out="00:53:57.467"/>
+    <entry producer="chain10" in="00:54:16.083" out="00:54:18.167"/>
+    <entry producer="chain11" in="00:54:06.533" out="00:54:07.000"/>
+    <entry producer="chain12" in="00:54:07.017" out="00:54:08.400"/>
+    <entry producer="chain13" in="00:54:34.800" out="00:54:39.117"/>
+    <entry producer="chain14" in="00:54:45.450" out="00:54:52.917"/>
+  </playlist>
+  <chain id="chain15" out="00:00:43.283">
+    <property name="length">00:00:43.300</property>
+    <property name="eof">pause</property>
+    <property name="resource">repairedaudio.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-03T17:37:58</property>
+    <property name="shotcut:hash">a79ae990feb7f714db80331b42396efd</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">repairedaudio.wav</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:defaultAudioIndex">-1</property>
+  </chain>
+  <chain id="chain16" out="00:00:43.283">
+    <property name="length">00:00:43.300</property>
+    <property name="eof">pause</property>
+    <property name="resource">repairedaudio.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-03T17:37:58</property>
+    <property name="shotcut:hash">a79ae990feb7f714db80331b42396efd</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">repairedaudio.wav</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:defaultAudioIndex">-1</property>
+  </chain>
+  <playlist id="playlist2">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">Repaired Audio</property>
+    <entry producer="chain15" in="00:00:00.000" out="00:00:34.683"/>
+    <entry producer="chain16" in="00:00:35.817" out="00:00:43.283"/>
+  </playlist>
+  <tractor id="tractor1" title="Shotcut version 22.10.25" in="00:00:00.000" out="00:00:42.167">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <property name="shotcut:scaleFactor">4.02968</property>
+    <property name="shotcut:trackHeight">37</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1"/>
+    <track producer="playlist2" hide="video"/>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+      <property name="1">normal</property>
+    </transition>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">1</property>
+      <property name="b_track">2</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">0</property>
+      <property name="1">normal</property>
+    </transition>
+    <transition id="transition4">
+      <property name="a_track">0</property>
+      <property name="b_track">3</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>

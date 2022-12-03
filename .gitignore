@@ -1,0 +1,10 @@
+/*.mp4
+/*.webm
+/*.mkv
+
+/streams/*
+!/streams/download.sh
+
+/captions/*
+!/captions/download.sh
+!/captions/convert.py

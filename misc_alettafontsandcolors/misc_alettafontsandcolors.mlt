@@ -1,0 +1,77 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.10.0" title="Shotcut version 22.10.25" producer="main_bin">
+  <profile description="PAL 4:3 DV or DVD" width="1080" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="1" display_aspect_den="1" frame_rate_num="30" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:00:18.967">
+    <property name="length">00:00:19.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:00:18.967"/>
+  </playlist>
+  <chain id="chain0" out="02:07:40.667">
+    <property name="length">02:07:40.700</property>
+    <property name="eof">pause</property>
+    <property name="resource">../streams/20221130__LhX-0ULYr-o__[ ANNOUNCEMENT ] Finally! This is what KCR stands for!  [ Production Kawaii VTUBER].webm</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="format">3</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-11-30T20:07:26</property>
+    <property name="shotcut:hash">8f154ae3ec1e7680978a4f025704a64b</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">20221130__LhX-0ULYr-o__[ ANNOUNCEMENT ] Finally! This is what KCR stands for!  [ Production Kawaii VTUBER].webm</property>
+    <property name="xml">was here</property>
+    <filter id="filter0" in="01:24:59.467" out="01:25:18.433">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">00:00:14.433=-1089.03 -429.694 2701.08 1519.36 1;00:00:16.600=-63.3891 -200.603 2890.79 1626.07 1;00:00:16.700=-32.309 -193.661 2896.54 1629.3 1;00:00:16.767=-16.9942 -190.24 2899.37 1630.9 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+  </chain>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="chain0" in="01:24:59.467" out="01:25:18.433"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 22.10.25" in="00:00:00.000" out="00:00:18.967">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <property name="shotcut:scaleFactor">8.37543</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+  </tractor>
+</mlt>
