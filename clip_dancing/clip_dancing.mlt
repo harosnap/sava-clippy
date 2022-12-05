@@ -1,0 +1,318 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.10.0" title="Shotcut version 22.10.25" producer="main_bin">
+  <profile description="PAL 4:3 DV or DVD" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="60" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:00:44.917">
+    <property name="length">00:00:44.933</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:00:44.917"/>
+  </playlist>
+  <chain id="chain117" out="02:56:47.283">
+    <property name="length">02:56:47.300</property>
+    <property name="eof">pause</property>
+    <property name="resource">../streams/20221005__rdELojAjKSM__A BOMB.webm</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="format">3</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-11-11T00:38:37</property>
+    <property name="shotcut:hash">8d87e37df5f99c08cdbafb3a23885d55</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">20221005__rdELojAjKSM__A BOMB.webm</property>
+    <property name="xml">was here</property>
+    <filter id="filter0" in="00:54:06.667" out="00:54:24.700">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.500=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">31</property>
+    </filter>
+    <filter id="filter1" in="00:54:16.533" out="00:54:18.383">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-1140.38 -340.252 3072 1728 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+    <filter id="filter2" in="00:54:06.667" out="00:54:24.700">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000=-60;00:00:00.500=0</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeInVolume</property>
+      <property name="shotcut:animIn">31</property>
+    </filter>
+  </chain>
+  <chain id="chain118" out="02:56:47.283">
+    <property name="length">02:56:47.300</property>
+    <property name="eof">pause</property>
+    <property name="resource">../streams/20221005__rdELojAjKSM__A BOMB.webm</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="format">3</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-11-11T00:38:37</property>
+    <property name="shotcut:hash">8d87e37df5f99c08cdbafb3a23885d55</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">20221005__rdELojAjKSM__A BOMB.webm</property>
+    <property name="xml">was here</property>
+    <filter id="filter3" in="00:54:39.800" out="00:54:47.033">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">00:00:04.117=0 0 1920 1080 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="disable">1</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+  </chain>
+  <chain id="chain119" out="02:56:47.283">
+    <property name="length">02:56:47.300</property>
+    <property name="eof">pause</property>
+    <property name="resource">../streams/20221005__rdELojAjKSM__A BOMB.webm</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="format">3</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-11-11T00:38:37</property>
+    <property name="shotcut:hash">8d87e37df5f99c08cdbafb3a23885d55</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">20221005__rdELojAjKSM__A BOMB.webm</property>
+    <property name="xml">was here</property>
+  </chain>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="chain117" in="00:54:06.667" out="00:54:24.700"/>
+    <entry producer="chain118" in="00:54:39.800" out="00:54:47.033"/>
+    <entry producer="chain119" in="00:54:47.867" out="00:55:07.483"/>
+  </playlist>
+  <producer id="producer0" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">moshing.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-12-04T23:27:10</property>
+    <property name="shotcut:caption">moshing.png</property>
+    <property name="shotcut:hash">2ee1a78b6d5e3430ae2c17ad8e70c487</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+    <filter id="filter4" out="00:00:02.417">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">00:00:00.000=-1117 526 1152 280.682 1;00:00:00.067=-1.80802 526 1152 280.682 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+    <filter id="filter5" out="00:00:02.417">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">00:00:02.333=1;00:00:02.417=0</property>
+      <property name="shotcut:animOut">6</property>
+    </filter>
+    <filter id="filter6" out="00:00:02.417">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:02.333=0;00:00:02.417=-60</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="shotcut:animOut">6</property>
+    </filter>
+  </producer>
+  <producer id="producer1" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">attractive.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-12-05T05:11:52</property>
+    <property name="shotcut:caption">attractive.png</property>
+    <property name="shotcut:hash">6e29455bccd742fe867198514f981900</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+    <filter id="filter7" out="00:00:02.217">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">00:00:00.000=-1117 624 1152 342.882 1;00:00:00.067=-1.80802 624 1152 342.882 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+    <filter id="filter8" out="00:00:02.217">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">00:00:02.133=1;00:00:02.217=0</property>
+      <property name="shotcut:animOut">6</property>
+    </filter>
+    <filter id="filter9" out="00:00:02.217">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:02.133=0;00:00:02.217=-60</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="shotcut:animOut">6</property>
+    </filter>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <blank length="00:00:18.050"/>
+    <entry producer="producer0" in="00:00:00.000" out="00:00:02.417"/>
+    <blank length="00:00:04.817"/>
+    <entry producer="producer1" in="00:00:00.000" out="00:00:02.217"/>
+  </playlist>
+  <chain id="chain0" out="00:00:00.217">
+    <property name="length">00:00:00.233</property>
+    <property name="eof">pause</property>
+    <property name="resource">swing.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-04T23:42:27</property>
+    <property name="shotcut:hash">12dc62af3096f24cc5ae2fb14f50ae67</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">swing.wav</property>
+    <property name="xml">was here</property>
+    <filter id="filter10" out="00:00:00.217">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-12</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <chain id="chain1" out="00:00:00.217">
+    <property name="length">00:00:00.233</property>
+    <property name="eof">pause</property>
+    <property name="resource">swing.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2022-12-04T23:42:27</property>
+    <property name="shotcut:hash">12dc62af3096f24cc5ae2fb14f50ae67</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">swing.wav</property>
+    <property name="xml">was here</property>
+    <filter id="filter11" out="00:00:00.217">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-12</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <playlist id="playlist2">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <blank length="00:00:18.050"/>
+    <entry producer="chain0" in="00:00:00.000" out="00:00:00.217"/>
+    <blank length="00:00:07.017"/>
+    <entry producer="chain1" in="00:00:00.000" out="00:00:00.217"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 22.10.25" in="00:00:00.000" out="00:00:44.917">
+    <property name="shotcut">1</property>
+    <property name="shotcut:scaleFactor">2.25809</property>
+    <property name="shotcut:trackHeight">36</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <properties name="shotcut:markers"/>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1"/>
+    <track producer="playlist2" hide="video"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">1</property>
+      <property name="b_track">2</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">0</property>
+    </transition>
+    <transition id="transition4">
+      <property name="a_track">0</property>
+      <property name="b_track">3</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>
